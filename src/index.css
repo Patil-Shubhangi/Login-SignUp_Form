@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background: url('https://payload.cargocollective.com/1/9/316317/13607080/Farm-2.gif');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 2rem;
+    width: 400px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #cef039c9, #e02c2ca4);
+    /* Light gray background */
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #162520d3;
+    /* Dark blue text color */
+}
+
+form input {
+    width: 100%;
+    outline: none;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #110c0c91;
+    border-radius: 20px;
+    background: rgba(224, 203, 203, 0.733);
+    /* White input background */
+}
+
+button {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #e21607dc, #0cd115d0);
+    /* Gradient background */
+    cursor: pointer;
+    transition: background 0.4s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #eb07cc, #3815d6d5);
+    /* Darker gradient on hover */
+}
+
+input:focus {
+    border: 1px solid #bbd6d3de;
+    /* Blue border color on focus */
+}
+
+.terms {
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+.terms label {
+    font-size: 0.8rem;
+    color: #0f0d0dd3;
+}
+
+.member {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #181111e7;
+}
+
+.member a {
+    font-size: large;
+    font-style: oblique;
+    color: #070c08d5;
+    text-decoration: none;
+}
+
+.recover {
+    text-align: right;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.recover a {
+    color: #040a0fd7;
+    text-decoration: none;
+}
